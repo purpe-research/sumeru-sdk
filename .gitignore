@@ -1,0 +1,5 @@
+src/tool/binary-header/binary-header.o
+src/tool/binary-header/sumeru-binary-header
+src/tool/bootconsole/sumeru
+src/tool/lib/bluetooth/*.o
+src/tool/lib/bluetooth/*.a
