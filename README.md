@@ -136,8 +136,3 @@ Thank you for supporting us, may the force be with you!
 
 
 sumeru-sdk@purpe.com
-
-Rohit Jalan
-r0h17@purpe.com
-+91-98932-53310
-
