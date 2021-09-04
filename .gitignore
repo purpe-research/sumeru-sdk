@@ -3,3 +3,9 @@ src/tool/binary-header/sumeru-binary-header
 src/tool/bootconsole/sumeru
 src/tool/lib/bluetooth/*.o
 src/tool/lib/bluetooth/*.a
+src/app/helloworld/helloworld
+src/app/helloworld/helloworld.bin
+src/app/*/*.o
+src/lib/*/*.o
+src/lib/*/*/*.o
+src/lib/*/*.a
