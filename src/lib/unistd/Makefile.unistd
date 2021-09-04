@@ -1,0 +1,10 @@
+include ${SUMERU_DIR}/conf/sumeru-pre.mk
+
+LIB = libsumeru_unistd.a
+
+CFILES = $(wildcard *.c)
+
+CFLAGS += -Werror
+CFLAGS += -I../fs_yaffs2
+
+include ${SUMERU_DIR}/conf/sumeru-lib-post.mk

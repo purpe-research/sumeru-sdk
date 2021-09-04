@@ -1,0 +1,14 @@
+SUMERU_FATFS = 1
+
+include ${SUMERU_DIR}/conf/sumeru-pre.mk
+
+LIB = libsumeru_unistd_sdfat.a
+
+CFILES = $(wildcard *.c)
+CXXFILES = $(wildcard *.cpp)
+
+CFLAGS += -Werror
+CFLAGS += -I../fs_yaffs2
+CFLAGS += -I../fs_sdfat
+
+include ${SUMERU_DIR}/conf/sumeru-lib-post.mk
