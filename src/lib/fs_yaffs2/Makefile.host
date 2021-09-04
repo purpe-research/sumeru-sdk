@@ -1,0 +1,10 @@
+include ${SUMERU_DIR}/sw/conf/host-pre.mk
+
+PROG = mkyaffsimage
+
+CFILES = $(wildcard *.c)
+ASMFILES = $(wildcard *.S)
+
+CFLAGS = -g -DHOST_SIM_MODE
+
+include ${SUMERU_DIR}/sw/conf/host-post.mk
