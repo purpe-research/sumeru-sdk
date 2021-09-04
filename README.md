@@ -7,7 +7,7 @@ GNU GPL Version 3				SDK Version 1.0
 
 
 	Sumeru is a RISC-V "rv32im" single-board-computer (SBC). 
-This directory contains a SDK for Sumeru. This SDK is based on the 
+This repository contains a SDK for Sumeru. This SDK is based on the 
 stock RISC-V toolchain and libc (newlib) provided by the RISC-V 
 foundation.
 
@@ -63,13 +63,12 @@ e) Documentation is available in the doc subdirectory and at
 
 
 Demonstration Programs
-======================
+
 
 This SDK includes few demonstration programs in the src/app sub-directory.
 
 
 src/app/baremetal
------------------
 
 	A baremetal programming example. This program will periodically 
 blink the led and print "Hello World!" on the serial console. The 3 PWM
@@ -82,16 +81,12 @@ source files (entry.S and baremetal.c)
 
 
 src/app/helloworld
-------------------
 
 	The helloworld program is functionally equivalent to the baremetal
 program.  It is written entirely in C and is more terse.
+
+
     
-
-
-
-
---------------------------------------------------------------------------
 
     To run these demos change to an app  directory and execute 'make run'
 
@@ -111,7 +106,7 @@ program.  It is written entirely in C and is more terse.
 
 
 Makefile Templates
-=================
+
 
 
     If you use GNU Make and would like to use this SDK's make templates,
@@ -137,7 +132,7 @@ Makefile Templates
 
 
 
-Thank you for using our computer, may the force be with you!
+Thank you for supporting us, may the force be with you!
 
 
 sumeru-sdk@purpe.com
